@@ -1,0 +1,35 @@
+Setting up my laptop to start the #100DaysOfTechStartup challenge, there was a few tasks I routinely complete:
+
+* This is for a Laravel setup, using Homestead.
+
+1. Go the the latest Laravel docs for installing: https://laravel.com/docs/7.x/installation
+
+2. Click into Homestead in a new tab: https://laravel.com/docs/7.x/homestead
+
+3. Click into Vagrant in a new tab: https://www.vagrantup.com/
+
+4. Download the most recent version, install it and delete the old one.
+
+5. Go back to the Homestead tab and click into VirtualBox: https://www.virtualbox.org/wiki/Downloads
+
+6.0 - Open VirtualBox from the teminal and delete any boxes I dont use any more.
+6. Download the most recent version, install it and delete the old one.
+
+7. Go back to the Laravel tab and click into Composer: https://getcomposer.org/
+
+8. Download the most recent version, install it and delete the old one.
+
+9. In terminal, run: upgrade_oh_my_zsh # I use the "fletcherm" theme for oh-my-zsh
+
+10. In PHPStorm, check for updates and download/ install/ delete old one.
+
+11. Go back to the Laravel tab and complete "Via Composer Create-Project"
+
+12. Go back to the Homestead tab and complete "Per Project Installation"
+* Dont run Vagrant up yet, we need to change the domain name
+
+13. Update Homestead.yml to set sites.map to your project name # Use .test TLD
+
+14. In terminal, in the project root, run vagrant up
+
+15. Visit https://{your-project}.test in your browser!
