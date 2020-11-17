@@ -1,0 +1,131 @@
+Multi-tenant SaaS
+
+Highly customisable
+
+cloud-native architecture of customizing multi-tenant SaaS 
+
+Software customization is a well adopted practice on enterprise software applications.
+
+Customization on multi-tenant SaaS has to meet three basic requirements:
+* Isolation: The customization for one tenant must not affect the other tenants.
+* Assimilation: The customization should not harm the performance and user experience of the service.
+* Economy of scale: With more customers subscribe, the cost for the vendor on each customer should decrease.
+
+There are three major roles in the ecosystem of SaaS customization, i.e.,
+* the Vendors who provide the main SaaS,
+* the Customers who use the service,
+* and the Consultants who are hired by the customers to customize the SaaS
+
+A vendor may have to support multiple produce services, as well as multiple versions of each service for their tenants.
+
+For multi-tenant SaaS, the drawback of deep customizations is mainly twofold.
+* On the one hand, the custom code is tightly coupled with the main service, and therefore, updates of main service may break some custom code.
+* On the other hand, deep customization in theory allows customers to do any change on the shared service, which may cause severe security issues
+
+Is this how to do classifications? https://engineering.shopify.com/blogs/engineering/categorizing-products-at-scale
+
+Interesting 3 points: https://www.youtube.com/watch?v=ISYKx8sa53g
+
+
+CTO of Shopify showing how/ why they build their tech: https://www.youtube.com/watch?v=Th7XN__ltyc
+
+GraphQL for internal and external APi. It used to be 2, with external being strictly REST, but now its both GraphQL and they love it!
+
+Aspect orientated programming, basically hooking in before and after various methods have run: https://www.youtube.com/watch?v=OrjjhVpvKo0
+AOP allows you to make software more customisable by letting users configure pre and post hooks to run custom code.
+
+AOP - Your code, their assembly. https://www.youtube.com/watch?v=sdzLhSJiboE
+
+MS Power + MS Dynamics 365 + MS Teams+PowerApp
+https://datastudio.google.com/u/0/navigation/reporting
+https://www.tableau.com/
+SAP
+
+https://medius.studios.ms/Video/Details/NonprofitCXO-Section07
+
+Leonard Cheshire took ~100+ word document forms into apps using Microsoft Power suite: https://www.youtube.com/watch?v=fxw-k0F-V5I
+
+Forms: https://www.youtube.com/watch?time_continue=125&v=JBIuxyQ_S60&feature=emb_title
+
+Computed/ calculated fields/ properties/ parameters that can be adding other fields, or applying maths on them, (so distance travelled becomes just minusing two columns, but from a nicer table)
+
+DDD in a SaaS is hard, as each tenant has experts behaving differently.
+
+Composite applications - Depending on the user, it can see different domains
+
+https://www.youtube.com/watch?v=ez9GWESKG4I
+
+Evolving DDD, boundaries will change, can change as your planning it!
+
+User groups, teams, departnemts, countries, offices ect… Are all used for different things. Some organisationss will use for authorsation, ect…
+
+
+https://www.youtube.com/watch?v=EOof9dof0y0
+Need to build a system that lets people implement evolving DDD'ed systems via webforms/ web apps and analytics. To build designs as well as facilitate the evolution via inbuilt mechanisms.
+
+Cant always move 2 similar services into 1 reusable. In one context it may be core, in another supportive, in another general. Each context has different reliability for that service (How important it is to them).
+
+Templates can be better than defaults. Templates hide the inputs, so you are quicker. Templates still let you override, but by default you accept the template/ blueprint,
+
+* Customisation is the active effort of a user to change how the software interface and system behaves. E.g. Disabling in-app notifications, as the emails are enough.
+* Personalisation is the passive effort of the system to interface and behave in a way that is beneficial to the user. E.g. recommending next activity to perform.
+To find a balance between these two is specific to your domain. Too much freedom/ customisability can make the software lower quality. Too much personalisation can make it less free for exploration
+
+Cognitive overload
+Source: https://uxplanet.org/how-much-customization-is-enough-in-ux-a-case-study-a12607d9ea1f#4d5f
+
+Implementing customisation shifts the expertise. We make machines to replace professionals
+
+Perhaps its a fundamental issue with software: That its role is to replace experts with machines, but an expert is able to handle such dynamic requests that software will never be able to fulfil an experts role. If you need to gain more knowledge to us ethos than we did before, maybe its not actually saving time. Or, we should have used an expert.
+
+Make software adaptive, we build it off the knowledge of one or a group of experts. But, in the real world, we dont always listen to the experts or we listen but act differently. Also, experts knowledge changes over time, especially in a complex domain. So, unless its something that is well known, use a adaptive system for your data and workflow management.
+
+If you take two systems that share a few common components, then merge them into 1 (For cost savings usually), they you may end up losing the benefits of having 2 systems. With 2, you can focus on the software as its a core solution to your problem. On the other, its a suporotive solution to your problm
+
+
+Source: https://www.youtube.com/watch?v=3gib0hKYjB0
+Organistions can spend 70% of dev budget on maintenance! As soon as software becomes into being, the problem its solving becomes different, once people see the software they think of new features to add to the feature that they could never have thought of before.
+
+Source: https://engineering.purdue.edu/~engelb/abe565/es.htm
+Interesting concept of trying to solve the problem with an expert and a user on the phone. If you can solve it this way, you know they dont need a set of external services. If not, you move to another scenario, change # of experts, communication channel or maybe a room of experts with specific tools.
+
+Source: https://www.bobsguide.com/guide/news/2018/Dec/10/is-saas-the-right-solution-for-all-financial-institutions/
+For SaaS to be widely adopted in more complex financial environments a rule-based system that supports customized logic and that can fit specific needs is required. For their operational processes to be automated the financial institutions must be able to teach the system a significant number of business rules. Some of these rules may be straightforward while others may be much more complex. In many cases these rules will be unique to that specific financial institution and the incorrect implementation of those rules would expose the institutions to significant operational risks. The creation of these rules and the configuration of the associated workflows has the potential to be highly complex. The specialized knowledge required would therefore have a significant impact on the SaaS implementation costs.
+
+Source: https://iopscience.iop.org/article/10.1088/1757-899X/242/1/012111/pdf#:~:text=1.1%20The%20Basic%20Structure%20of,expertise%2C%20including%20facts%20and%20rules.
+
+
+
+Source: http://users.cs.cf.ac.uk/Dave.Marshall/AI1/mycin.html
+It is well known that an expert knows more about a topic than is appreciated and cetainly more than the expert is able to offer at short notice. Thus questions such as 'tell me all you know about staph infections' will yield only a fraction of an expert's knowledge.
+
+
+Source: https://www.geeksforgeeks.org/expert-systems/
+Artificial Intelligence is a piece of software that simulates the behavior and judgment of a human or an organization that has experts in a particular domain is known as an expert system. It does by acquiring relevant knowledge from its knowledge base and interpreting it according to the user’s problem. The data in the knowledge base is added by humans that are expert in a particular domain and this software is used by a non-expert user to acquire some information.
+
+
+Using a system to prejudice means you need some model of what you want. Then, you can use some system to predict the change needed to arrive at this new position.
+
+
+Source: https://www.igcseict.info/theory/7_2/expert/
+Like Impacts conversions, an expert programs the values and the user simply enters them and receives the output converted.
+
+Source: https://www.sciencedirect.com/science/article/abs/pii/S095965261631513X
+Takes a bunch of construction CSR experts and a few companies (Who are actively measuring their activities) and builds a fuzzy system to score each one.
+Takes a set of 3 dimensions and build a scorer based on evidence. IF you score 4+ in this, true in that and fals in that, then your score is 0.89. The dimensions (Based on experts) are human capital, strategy and environmental, social governance.
+Using a set of input variables, 1 output per domenaion and some intermediary variables.
+
+
+Source: https://www.pwc.com/gx/en/audit-services/publications/assets/pwc-ir-practical-guide.pdf
+These guys integratedreporting.org have some good ideas and a framework to use. Then PwC build this pdf source with some steps to become an integrated reporting organisation.
+It has a 1-10 KPI categories you can measure from environmental to investments in other companies' last/ most complex to measure.
+
+
+
+
+
+
+Expert systems?
+
+Source: https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
+Reducing a 50 question survey down to the 4 most useful, using eigenvalues.
