@@ -1,0 +1,98 @@
+Software onboarding through progression (And exploring links to gamification/ rewards).
+
+Progression in terms of learning how to use the software, as a kind of onboarding. Using a progression system to show them the most basic, potentially tailored content to get them using the basic/ core functionality. This progresses them on a tree structure towards other goals. With the aim to reach the end of a tree, and be able to explore others, or depending on the software/ software tennant, the user can traverse the system in different ways.
+
+======================================================================
+
+Game developers in the 1980s didn’t just need to teach people how to play the games they made—they needed to teach people how to play video games, period.
+Source:
+https://www.appcues.com/blog/3-fundamental-user-onboarding-lessons-from-classic-nintendo-games
+
+Its important to recognise if your software is based on a system your users understand. If its something completely new, then you wont just be teaching them your implementation of the system, but also how the system works in reality too. For social impact system, if they dont understand the difference between say social and environmental impact, then you will have to first educate them on these categories. Then, you can send them to a more detailed page.
+
+[Content gamification] is the application of game elements and game thinking to alter content to make it more game-like.
+
+As opposed to structural gamification, which is applying game mechanics to content without editing the content and encouraging them to continue learning with rewards intersected.
+
+Content gamification is what could be a social impact action thats really simple, such as using 1 less single-use product (Your daily coffee). You can be rewarded.
+
+Originally, the designers started players off with an altercation with a Koopa Troopa (tortoise-like critter). You may remember that defeating a Koopa Troopa was a 2-step process: (1) stomp on them and they’ll go into their shell, and then (2) kick the shell. After thinking about it, designers decided that a multi-step process might be too complex for a first-time enemy encounter.
+
+Remember not to give them a multi step process first, especially if its in a whole new domain of learning for them.
+
+So, you can see the person designing the social impact actions as someone who is a game designer who is using the content gamification to create a level 1 where they have a simple challenge to complete. Then they progress in whatever way, either through a linear set of tasks or if in a tree of different routes.
+
+Also, allow them to fail at a challenge here, so they see the consequences, perhaps they arent as bad as they expected, or maybe they are worse. But the affects are either none or very small as the game designer factored it in as a learning way.
+
+======================================================================
+
+User onboarding experience ≠ product tour
+Source:
+https://www.appcues.com/user-onboarding
+
+This is important, its not providing them a list of features/ a tour of the product. It is actually using the product, a walkthrough or wizard.
+
+The aha moment
+
+..
+
+======================================================================
+
+Game design !== Gamification
+Source:
+https://www.youtube.com/watch?v=zaxAdRlyZQ8
+
+If you gamify (reward) then you undermine intrinsic motivation, because you devalue the reward over time, instead of intrinsic motivation.
+
+The theory of game design is art, science, psychology, mathematics, story telling.
+
+Games have:
+Goals - Concrete, achievable and rewarding
+Emotions - 
+Toys - Playful expiration in little apps to help you achieve goals, or just waste time. Make fun toys, then combine them into games.
+Flow - Know what to do next, know how to do it, free from distraction, clear immediate feedback, high perceived challenge and skill. After an action, dont just send me back to a listing page, send me somewhere which makes me know what to do next!
+
+======================================================================
+
+Goals at every level
+Source: Nathans hella smart head
+
+People are operating at different levels with different short-term goals, but overall towards the main longer term goal. When you first sell a piece of software, the finance person's goal may be to run a trial and see if it improves productivity (and eventually reduces costs). However, the social value manager might be using it to run a new campaign they have. Thirdly, the worker might be doing it as the social value manager forced them to use it to log their individual social impact.
+
+Therefore, we cannot onboard all 3 of these people to the software together, perhaps all 3 won't even use the software!
+
+Onboarding finance person:
+
+Onboarding social value manager:
+Teach them how to set up a campaign
+How to create a “gamified” campaign to help onboard their workers
+
+Onboarding worker:
+Follow the gamified content that their SVM setup.
+
+So, each person can have a different route, and maybe some people can be grouped together to force them to take one route, or as a choice of theirs.
+
+
+
+How a human behaves when performing an action based on a certain stimulus.
+
+You can take these 4 steps of human brain processing to any piece of software. The analysis/ plan stage can be taken at the smallest scale, to the largest. Use this to zoom in and out of tasks to complete. This is how the human brain would do it too!
+
+Your brain is working to see what is missing and working to add it in.
+
+
+Next steps:
+
+So, this is the functionality:
+Scheduled emails to remind/ inspire/ prompt people
+Hooks - Can hook into any event such as pre form submit, 
+Watchers - Can watch a sheet, or a pivot table, or watch an event too!
+
+To test its useful, build out a couple of apps, such as:
+HR holidays
+Timesheets
+Social impact
+
+Make sure it works with projects too.
+
+
