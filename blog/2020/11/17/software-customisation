@@ -1,0 +1,6 @@
+Just some notes on a series on everything around software customisation/ configuration:
+
+* Pros/ cons
+* What "opinionated" software is, how to notice it, and how to decide if it removed flexibility of the sotware by existing in code isntead of configuration.
+* When to build customisable functionality
+* Templating to reduce complexity/ improve UX
