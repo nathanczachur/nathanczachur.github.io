@@ -1,0 +1,51 @@
+Thought Series
+Software Society/ Digital Society
+
+What do we have:
+* Software
+* Games
+
+With:
+* GUI (User to software interface
+* Console UI (User to software interface)
+* APIs/ Webhooks (Software to software Interface)
+
+They replicate well defined workflows/ systems real world things and fully digital things:
+* Taking a driving licence application, verifying it, sending it to approvals, notifying driver it’s been sent to approval.
+* Taking a video clip, applying a watermark to the corner, saving in your local file system.
+
+These are tasks that may or may not need human intervention. Some may be triggered by a human, but process a few tasks, then pass to another computer, then finally pass the results to a human via notifications.
+
+They can also try to replicate less well defined workflows/ systems:
+* //
+
+I believe that we should learn how to build better less defined systems, which will allow us to update our real world well defined systems to be less defined.
+
+Less well defined means good:
+* Adaptable to change
+* Less centralised, so less risk of failure in 1 big place
+
+Less well defined means bad:
+* Less economies of scale
+* Less centralised, so harder to understand and control the whole system
+
+But, I believe that we are advanced enough as a global society that the ebad arguments aren’t actually that important anymore due to our shared knowledge and abilities, we can overcome them, while having the benefits.
+
+The focus/ main benefit of less defined systems is, well firstly that humanity is less well defined and our governments/ corporations/ societies are there to make it defined to benefit them, but the reason for less defined is to allow experimentation. Social scientists are different than natural scientists, they are not studying and experimenting on the natural world, they are studying human societies, a completely man made thing. This thing is not easily experimented on, because human agents are affected by so many variablbles that 2 humans, despite being from the same background, will not behave the same way.
+
+SaaS software are by definition well defined/ constrained because they are looking to benefit from the economies of scale.
+
+However, as software is easy to build, SaaS should be more customisagble/ perosnalisable, becoming less defined.
+
+But, then a new problem emerges, the SaaS becomes more difficult to use as an end user as well as the administrators.
+
+So, then an idea is to provide “templates” that you may never change or even know are there. You are using the software in a customised state for yourself/ your organisation, but use it as is. Then, other people in your team can customise from that as a base. others may hire a consultant to completely customise it for their needs.
+
+The next issue comes when you have to show/ hide data for specific people. Your teams structure probably won’t be enough for some large enterprise organisations, but may be enough for a small team.
+
+People often find the easiest thing to do, maybe because they are of old age and aren’t looking to change the world, maybe they have other higher priorities right now so don’t want to do it, or want to push it to a later date.
+
+Having these templates may be a business secret, some advantage you have over other organisations, so you keep it to yourselves forever. Sometimes its not good to keep the secret for forever, its good to teach it and move onto something better. Plan for this to happen and it will go good.
+
+Interesting how some “incremental” games are so popular, when they only have 1 variable you are looking to increase (Cookie count, monet, exp, …) https://www.youtube.com/watch?v=CjnIt7MHC6U
+If gameplay becomes boring during these games, they are built so the player can automate tasks that you have already done manually and are bored if it. Trial and error UX can be good as long as there is multiple success paths, otherwise you will lose too many people through the error path.
