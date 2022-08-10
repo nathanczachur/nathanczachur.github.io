@@ -5,7 +5,7 @@ So, am working on macos, so no php built in...
 I am used to using Docker, so that waas my first thought.
 
 Laravel Sail: I tried to install, but you need php to install it (Its a composer dependancy)...
-Then I StackOverflow, and theres a way to fake it first (Winning!), but Sail needs to exist in thr cmoposer.json, which I didnt like, so no...
+Then I StackOverflow, and theres a way to fake it first (Winning!), but Sail needs to exist in thr composer.json, which I didnt like, so no...
 
 I looked at the core Docker php box. It was nice. So I make a Dockerfile and install some extensions and it kind of works!
 * https://hub.docker.com/_/php
@@ -20,3 +20,31 @@ I eventually ran into the bug, documented deep in their readme file (https://git
 I then realised, I need the vendor directory for autocompleting in my IDE... And act didnt seem to add the vendor dir...
 
 So I gave up XD
+
+...
+
+But I came back! I remembered the Laravel default install doesnt require PHP, because it uses the docker command I had tried already (In line 8 above, faking it https://laravel.build/example-app)!
+
+So, I found the box: laravelsail/php81-composer and I went to work!
+
+It was relatively simple :laugh:
+
+First, install composer dependancies
+```
+docker run --rm \
+    -v "$(pwd)":/opt \
+    -w /opt \
+    laravelsail/php81-composer:latest \
+    bash -c "composer install"
+    ```
+    
+    Then, run the tests whenever you want, which was pretty quick (OK I only had 1 basic test, but still):
+    ```
+    docker run --rm \
+    -v "$(pwd)":/opt \
+    -w /opt \
+    laravelsail/php81-composer:latest \
+    bash -c "./vendor/bin/phpunit tests"
+    ```
+    
+    Perhaps this container is overkill (See https://github.com/laravel/sail/blob/1.x/runtimes/8.1/Dockerfile), as its just 1 package and it installs a lot of extras. But, I like that its an official Laravel container, so hopefully it comes with updates if I use the latest 8.1. Much better than rolling my own, even if it took a few hours to figure out!
