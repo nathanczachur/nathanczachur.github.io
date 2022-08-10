@@ -38,13 +38,24 @@ docker run --rm \
     bash -c "composer install"
     ```
     
-    Then, run the tests whenever you want, which was pretty quick (OK I only had 1 basic test, but still):
-    ```
-    docker run --rm \
+Then, run the tests whenever you want, which was pretty quick (OK I only had 1 basic test, but still):
+```
+docker run --rm \
     -v "$(pwd)":/opt \
     -w /opt \
     laravelsail/php81-composer:latest \
     bash -c "./vendor/bin/phpunit tests"
-    ```
-    
-    Perhaps this container is overkill (See https://github.com/laravel/sail/blob/1.x/runtimes/8.1/Dockerfile), as its just 1 package and it installs a lot of extras. But, I like that its an official Laravel container, so hopefully it comes with updates if I use the latest 8.1. Much better than rolling my own, even if it took a few hours to figure out!
+```
+
+Perhaps this container is overkill (See https://github.com/laravel/sail/blob/1.x/runtimes/8.1/Dockerfile), as its just 1 package and it installs a lot of extras. But, I like that its an official Laravel container, so hopefully it comes with updates if I use the latest 8.1. Much better than rolling my own, even if it took a few hours to figure out!
+
+Then, I thought, are there PHP package development courses, they must have advice, so as some extra work I found these:
+
+* https://phppackagedevelopment.com/ No info on local dev
+* https://laravelpackage.com/02-development-environment.html Assumes you have composer
+* https://laravelpackageboilerplate.com/ Assume you have composer. Has a sample Github action on ubuntu latest, then installs PHP versions + composer after.
+* https://github.com/spatie/package-skeleton-laravel Same as boilerplate above.
+
+I also asked on the Laravel discord (#servers), but they didnt have any advice. So, for now, I am happy with this setup. Maybe I can reduce the command, or move it into an install bash script.
+
+Also, I found a Laravel doc for making a package: https://laravel.com/docs/9.x/packages with info on getting package descovery, if its a Laravel package!
